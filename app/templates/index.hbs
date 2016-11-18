@@ -1,13 +1,30 @@
+<link rel="stylesheet" href="{{rootURL}}assets/css/stylesCustom.css">
 
-
-<h1>Welcome to ember-bootstrap</h1>
-
+<br/>
+<br/>
+<br/>
+<h1>¡QUÉ BIEN ME ALIMENTO!</h1>
+<hr>
 <div class="row">
-  <div class="col-md-6">
-    <a href="http://emberjs.com/" target="_blank">EmberJS</a>
-    
-  </div>
-  <div class="col-md-6">
-    <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-  </div>
+
+  <p class="col-md-6 col-md-offset-3  text-center  col-centered">
+    Encuentra aquí la receta de cocina que estás buscando muy fácil y rápido.
+    <br/> Contamos con las mejores recetas de la cocina colombiana e internacional, comida típica, sopas, bebidas, entradas, postres etc.
+    <br/> Todo con fotos e instrucciones.
+  </p>
+
+  <br/>
+
+</div>
+
+<br/>
+
+<br/>
+<div class="row">
+  {{#link-to 'listarReceta' id="btnIndex" class="col-md-2 col-md-offset-5 col-centered  text-center btn  btn-xl"}}
+  Encuentra más
+{{/link-to}}
+
+
+
 </div>
